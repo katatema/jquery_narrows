@@ -20,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+For basic usage see　https://github.com/monmonmon/jquery.narrows
+
+use with `simple_form`
+
+```erb
+<%= f.input :parent, as: :narrows_select %>
+<%= f.input :child, parent: :parent, as: :narrows_select %>
+```
 
 ## Development
 
